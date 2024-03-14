@@ -1,0 +1,101 @@
+font family {
+  .fuzzy-bubbles-regular {
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .fuzzy-bubbles-bold {
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+}
+.weather-body {
+  height: 523px;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  background: white;
+  background-color: rgb(249, 247, 254);
+  display: block;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+.search-button {
+  margin-left: 5px;
+  font-size: 16px;
+  background-color: #885df1;
+  color: white;
+  border: none;
+  padding: 20px;
+  line-height: 1;
+  border-radius: 5px;
+}
+.search-input {
+  background-color: #f9f7fe;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  padding: 20px;
+  width: 75%;
+  border-radius: 6px;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+.current-city {
+  font-size: 38px;
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 900;
+  margin: 0;
+  display: block;
+}
+
+.current-details {
+  color: rgba(39, 33, 66, 0.4);
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.current-temperature {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-size: 50px;
+}
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
+  display: block;
+}
+form {
+  display: block;
+  margin-top: 0em;
+}
+main {
+  padding: 30px 0;
+  display: block;
+}
+footer {
+  border-top: 1px solid #f9f7fe;
+  text-align: center;
+  padding-top: 15px;
+  color: rgba(39, 33, 66, 0.4);
+  display: block;
+}
+a {
+  color: #885df1;
+}
+h1 {
+  display: block;
+}
+p {
+  display: block;
+  font-family: "Fuzzy Bubbles", sans-serif;
+}
+div {
+  display: block;
+}
+placeholder {
+  font-family: "Crimson Text", serif;
+}
